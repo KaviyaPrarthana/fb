@@ -19,37 +19,10 @@ class EnrollViewController: UIViewController {
    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-           super.viewWillAppear(animated)
-        self.loadData()
-       }
     
-    func loadData() {
-    // self.todoList.removeAll()
-     let ref = Database.database().reference()
-        ref.child("todoList").observeSingleEvent(of: .value, with: { (snapshot) in
-     if let todoDict = snapshot.value as? [String:AnyObject] {
-       for (_,todoElement) in todoDict {
-                      
-         let todo = Todo()
-         todo.message = todoElement["message"] as? String
-         self.todoList.append(todo)
-        UserDefaults.standard.setValue(self.todoList, forKey: "todoList")
-         }
-          }
-               
-                
-              }) { (error) in
-                    print(error.localizedDescription)
-              }
-
-        }
-  
-
     
     @IBAction func addEntry(_ sender: Any) {
       self.todo.message = self.messageTF.text

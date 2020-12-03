@@ -17,6 +17,7 @@
 		670328D02577A7B300164F0A /* fbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670328CF2577A7B300164F0A /* fbUITests.swift */; };
 		670328E12577B12300164F0A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 670328E02577B12300164F0A /* GoogleService-Info.plist */; };
 		670329132577D4BB00164F0A /* EnrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670329122577D4BB00164F0A /* EnrollViewController.swift */; };
+		674F9ED925794F8F002DD1CC /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674F9ED825794F8F002DD1CC /* ListTableViewCell.swift */; };
 		67D74D212577E1B400E6B969 /* CommonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D74D202577E1B400E6B969 /* CommonClass.swift */; };
 		67D74D352577E77300E6B969 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D74D342577E77300E6B969 /* ListViewController.swift */; };
 		CA664A779B19D42AFC8C39A5 /* Pods_fb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B2F91F20DAD81852A03590 /* Pods_fb.framework */; };
@@ -57,6 +58,7 @@
 		670328D12577A7B300164F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		670328E02577B12300164F0A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		670329122577D4BB00164F0A /* EnrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnrollViewController.swift; sourceTree = "<group>"; };
+		674F9ED825794F8F002DD1CC /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		67D74D202577E1B400E6B969 /* CommonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonClass.swift; sourceTree = "<group>"; };
 		67D74D342577E77300E6B969 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		D8B2F91F20DAD81852A03590 /* Pods_fb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +130,7 @@
 				67D74D202577E1B400E6B969 /* CommonClass.swift */,
 				670329122577D4BB00164F0A /* EnrollViewController.swift */,
 				670328B32577A7B200164F0A /* Main.storyboard */,
+				674F9ED825794F8F002DD1CC /* ListTableViewCell.swift */,
 				67D74D342577E77300E6B969 /* ListViewController.swift */,
 				670328B62577A7B300164F0A /* Assets.xcassets */,
 				670328B82577A7B300164F0A /* LaunchScreen.storyboard */,
@@ -339,6 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				674F9ED925794F8F002DD1CC /* ListTableViewCell.swift in Sources */,
 				67D74D212577E1B400E6B969 /* CommonClass.swift in Sources */,
 				670329132577D4BB00164F0A /* EnrollViewController.swift in Sources */,
 				67D74D352577E77300E6B969 /* ListViewController.swift in Sources */,
